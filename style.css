@@ -1,0 +1,139 @@
+/* general styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --background:#2b2b2b;
+    --primary:#38b789;
+    --secondary:#333333;
+    --text:#626262;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    
+  }
+  
+  body {
+    align-items: center;
+    background-color: var(--background);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+      
+  }
+  
+  .container {
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+   
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 0.8rem;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 3rem;
+  }
+  
+  .message {
+    font-size: 4rem;
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji {
+    padding: 0 .25rem;
+  }
+  
+
+  #countdown li{
+      margin-top: 20px;
+      background: var(--secondary);
+      width: 120px;
+      margin-right: 30px;
+      
+     
+    
+
+  }
+  #headline{
+      margin-bottom: 50px;
+  }
+
+ 
+  .noti h1{
+      margin-top: 100px;
+      letter-spacing: 5px;
+      font-size: 30px;
+      
+  }
+
+  .noti p{
+      color: var(--text);
+      margin-top: 20px;
+      
+     
+      
+  }
+
+  .subs-box{
+      margin-top: 50px;
+  }
+.subs-box a{
+    font-size: 25px;
+    margin-right: 20px;
+    color: gray;
+    transition: all 0.3s ease-in-out;
+}
+.subs-box a:hover{
+    color: var(--primary);
+}
+  .container p{
+      margin-bottom: 20px;
+  }
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+    li span {
+      font-size: 3.375rem;
+    }
+    .container{
+        margin: 0 20px;
+    }
+    #countdown li{
+        width: 100px;
+    }
+  }
+
+
+
+  #countdown{
+    border-bottom: 1px solid var(--secondary);
+    padding-bottom: 50px;
+  }
